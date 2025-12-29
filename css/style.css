@@ -212,17 +212,17 @@ header .icons a:hover {
 
 @keyframes glob {
     0% {
-        background: url(/img/modern-stationary-collection-arrangement.jpg) no-repeat center;
+        background: url(../img/modern-stationary-collection-arrangement.jpg) no-repeat center;
         background-size: cover
     }
 
     50% {
-        background: url(/img/elegant-smartphone-composition\ \(1\).jpg) no-repeat center;
+        background: url(../img/elegant-smartphone-composition\ \(1\).jpg) no-repeat center;
         background-size: cover;
     }
 
     100% {
-        background: url(/img/rendering-smart-home-device.jpg) no-repeat center;
+        background: url(../img/rendering-smart-home-device.jpg) no-repeat center;
         background-size: cover
     }
 }
@@ -416,22 +416,22 @@ header .icons a:hover {
 }
 
 .product-page .boxs .box1 {
-    background: url(/img/iphone-17-white-0-46c7c2f.jpg) no-repeat center;
+    background: url(../img/iphone-17-white-0-46c7c2f.jpg) no-repeat center;
     background-size: cover;
 }
 
 .product-page .boxs .box2 {
-    background: url(/img/apple-watch.png) no-repeat center;
+    background: url(../img/apple-watch.png) no-repeat center;
     background-size: contain;
 }
 
 .product-page .boxs .box3 {
-    background: url(/img/lap\ images.png) no-repeat center;
+    background: url(../img/lap\images.png) no-repeat center;
     background-size: contain;
 }
 
 .product-page .boxs .box4 {
-    background: url(/img/white.jpg) no-repeat center;
+    background: url(../img/white.jpg) no-repeat center;
     background-size: contain;
 }
 
@@ -658,7 +658,7 @@ header .icons a:hover {
     border: 1px solid white;
     height: 100%;
     width: 1000px;
-    background: url(/img/still-life-wireless-cyberpunk-headphones-removebg-preview.png) no-repeat center;
+    background: url(../img/still-life-wireless-cyberpunk-headphones-removebg-preview.png) no-repeat center;
     background-size: contain;
     display: flex;
     flex-direction: column;
@@ -886,7 +886,7 @@ header .icons a:hover {
 
 .review-page {
     height: 100vh;
-    background: url(/img/mTHrY6Lp-image-1200x510.png) no-repeat fixed center;
+    background: url(../img/mTHrY6Lp-image-1200x510.png) no-repeat fixed center;
     background-size: cover;
     display: flex;
     flex-direction: column;
