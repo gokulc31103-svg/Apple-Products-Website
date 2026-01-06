@@ -50,7 +50,7 @@ header .brand {
 }
 
 header .brand a {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
     line-height: 30px;
@@ -74,32 +74,30 @@ header .nav {
 header .nav a {
     /* border: 1px solid red; */
     text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 1.3rem;
+    font-weight: 800;
     padding: 10px 0;
     width: 15%;
-    /* height: 100%; */
     position: relative;
     transition: .8s;
     text-align: center;
     color: white;
-
 }
 
 header .nav a:hover {
     color:#ff7226;
 }
-/* 
+
 header .nav a::before {
     content: '';
     border: 2px solid #ff7226;
     position: absolute;
     width: 80%;
-    top: 0;
+    /* top: 0; */
     left: -85%;
     display: none;
     animation: after .5s linear;
-} */
+}
 
 header .nav a::after {
     content: '';
@@ -212,17 +210,17 @@ header .icons a:hover {
 
 @keyframes glob {
     0% {
-        background: url(../img/modern-stationary-collection-arrangement.jpg) no-repeat center;
+        background: url(/img/modern-stationary-collection-arrangement.jpg) no-repeat center;
         background-size: cover
     }
 
     50% {
-        background: url(../img/elegant-smartphone-composition\ \(1\).jpg) no-repeat center;
+        background: url(/img/elegant-smartphone-composition\ \(1\).jpg) no-repeat center;
         background-size: cover;
     }
 
     100% {
-        background: url(../img/rendering-smart-home-device.jpg) no-repeat center;
+        background: url(/img/rendering-smart-home-device.jpg) no-repeat center;
         background-size: cover
     }
 }
@@ -250,10 +248,11 @@ header .icons a:hover {
     /* justify-content: end; */
     align-items: center;
     z-index: 99;
+    background-color: transparent;
 }
 
 .home-page .home-head p {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 600;
     color: white;
 }
@@ -416,22 +415,22 @@ header .icons a:hover {
 }
 
 .product-page .boxs .box1 {
-    background: url(../img/iphone-17-white-0-46c7c2f.jpg) no-repeat center;
+    background: url(/img/iphone-17-white-0-46c7c2f.jpg) no-repeat center;
     background-size: cover;
 }
 
 .product-page .boxs .box2 {
-    background: url(../img/apple-watch.png) no-repeat center;
+    background: url(/img/apple-watch.png) no-repeat center;
     background-size: contain;
 }
 
 .product-page .boxs .box3 {
-    background: url(../img/lap\images.png) no-repeat center;
+    background: url(/img/lap\ images.png) no-repeat center;
     background-size: contain;
 }
 
 .product-page .boxs .box4 {
-    background: url(../img/white.jpg) no-repeat center;
+    background: url(/img/white.jpg) no-repeat center;
     background-size: contain;
 }
 
@@ -655,10 +654,10 @@ header .icons a:hover {
 }
 
 .soon-page .card{
-    border: 1px solid white;
+    /* border: 1px solid black; */
     height: 100%;
     width: 1000px;
-    background: url(../img/still-life-wireless-cyberpunk-headphones-removebg-preview.png) no-repeat center;
+    background: url(/img/still-life-wireless-cyberpunk-headphones-removebg-preview.png) no-repeat center;
     background-size: contain;
     display: flex;
     flex-direction: column;
@@ -679,7 +678,7 @@ header .icons a:hover {
     padding: 10px 20px;
     border-radius: 10px;
     text-decoration: none;
-    background-color: #ff7226;
+    background-color:blue;
     color: white;
     transition: .5s;
     position: relative;
@@ -886,7 +885,7 @@ header .icons a:hover {
 
 .review-page {
     height: 100vh;
-    background: url(../img/mTHrY6Lp-image-1200x510.png) no-repeat fixed center;
+    background: url(/img/mTHrY6Lp-image-1200x510.png) no-repeat fixed center;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -954,18 +953,19 @@ header .icons a:hover {
     justify-content: space-between;
     border-radius: inherit;
     scroll-snap-align: start;
+    padding: 10px;
 }
 
 .review-page .main .left .slider .card p {
     font-size: 1.1rem;
     font-weight: 300;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .review-page .main .left .slider .card h4 {
     font-size: 1rem;
     font-weight: 600;
-    color: white;
+    color: rgb(0, 0, 0);
 
 }
 
@@ -1305,7 +1305,7 @@ footer {
 
 footer .container {
     height: 85%;
-    background-color: #000000ea;
+    background-color:grey;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -1325,8 +1325,9 @@ footer .container .box {
 }
 
 footer .container .box h1 {
-    line-height: 30px;
-    color: #ff7226;
+    line-height: 40px;
+    color:black;
+    font-size: 30px;
 }
 
 footer .container .box span {
@@ -1355,7 +1356,7 @@ footer .container .box button {
     padding: 10px 0;
     background-color: #ff7226;
     border: 1px solid #ff7226;
-    border-radius: 10px;
+    border-radius: 15px;
     font-size: 1.3rem;
     font-weight: 600;
 }
@@ -1377,7 +1378,7 @@ footer .container .box p:hover {
 footer .container .box h2 {
     font-size: 2rem;
     line-height: 30px;
-    color: #ff7226;
+    color: black;
 }
 
 footer .container .box .icons {
@@ -1399,7 +1400,7 @@ footer .container .box .icons a:hover {
 
 footer .foot {
     /* height: 15%; */
-    background-color: black;
+    background-color: navy;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1481,7 +1482,7 @@ footer .foot p {
 }
 
 .home-page1 .home-info1 h1 span {
-    color: #ff7226;
+    color: blue;
 }
 
 .home-page1 .home-info1 p {
@@ -1673,7 +1674,7 @@ footer .foot p {
 }
 
 .home-page1 .home-info1 h1 span {
-    color: #ff7226;
+    color:blue;
 }
 
 .home-page1 .home-info1 p {
@@ -1857,7 +1858,7 @@ footer .foot p {
 }
 
 .sales-page .list1 h1 {
-    color: #ff7226;
+    color: blue;
 }
 
 .sales-page .list1 .carlist {
@@ -1980,7 +1981,7 @@ footer .foot p {
     font-weight: 600;
     padding: 5px 20px;
     border-radius: 10px;
-    background-color: #ff7226;
+    background-color:blue;
     color: white;
     transition: .5s;
     position: relative;
@@ -2035,7 +2036,7 @@ footer .foot p {
 }
 
 .sales-page .list3 h1 {
-    color: #ff7226;
+    color: blue;
 }
 
 .sales-page .list3 .carlist {
@@ -2133,7 +2134,7 @@ footer .foot p {
     font-weight: 600;
     padding: 5px 20px;
     border-radius: 10px;
-    background-color: #ff7226;
+    background-color:blue;
     color: white;
     transition: .5s;
     position: relative;
@@ -2256,7 +2257,7 @@ footer .foot p {
 }
 
 .home-page2 .home-info2 h1 span {
-    color: #ff7226;
+    color:blue;
 }
 
 .home-page2 .home-info2 p {
@@ -2510,54 +2511,164 @@ footer .foot p {
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
-    justify-content: space-between;
+    gap: 2em;
+    background-color:seashell;
 }
 
 
-.card .card1{
-    /* border: 1px solid blue; */
-    height: 500px;
-    width: 300px;
-    border-radius: 5px;
+.card1{
+    width: 350px;
+    margin: 50px auto;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 20px;
 }
 
-.card .card1 .top{
-    /* border: 1px solid green; */
-    height: 250px;
+.card1::after{
+    position: absolute;
+    content: "";
     width: 100%;
+    height: 100%;
+    background-image: conic-gradient(red 45deg, yellow 90deg, green 210deg);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 1s;
+    border-radius: 30px;
 }
 
-.card .card1 .top img{
+.card1:hover::after{
+    transform: rotate(360deg);
+
+}
+.card1 .card-img{
+    height: 270px;
+    transition: 0.5s;
+    overflow: hidden;
+    padding: 30px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* border: 1px solid black; */
+}
+
+.card-img img{
     height: 100%;
     width: 100%;
     object-fit: contain;
+    transition: 0.5s;
+    border-radius: 20px;
 }
-
-
-.card .card1 .bottom{
-    /* border: 1px solid green; */
+.card-img:hover img{
+    transform: scale(1.1);
+}
+.card1 .card-content{
     height: 150px;
-    width: 100%;
-    text-align: center;
+    transition: 0.5s;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-color:navy;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+}
+
+.card-box{
+    transition: 0.5s;
+}
+
+.card1:hover .card-box{
+    transform: scale(0.95);
+}
+
+
+
+.card-content .phname{
+    font-size: 1.3rem;
     font-weight: 600;
- 
+    margin-bottom: 9px;
 }
 
 
-.card .card1 .bottom button{
-    font-size: 1.3em;
-    /* padding: 5px; */
-    color:green;
-    border-radius: 5px;
-    border: 1px solid;
+.card-content .phvar{
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 9px;
 }
 
-.bottom button:hover{
-    background-color:gray;
+
+.card-content .cardprice{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+
+.card-content .cardprice .np{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.card-content .buy{
+    position: absolute;
+    right: -200px;
     transition: 1s;
+    bottom: 30px;
 }
- .card img:hover{
-    transform: scale(1.2);
-    transition: 1s;
 
+.card1:hover .buy{
+    right: 10px;
+    bottom: 20px;
+}
+
+
+.card-content .buy a{
+    padding: 0.5em 1em;
+    font-size: 1em;
+    border-radius: 20px;
+    background-color: white;
+    color:navy;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+
+.card-content .buy:hover a{
+    background-color:rgb(182, 182, 182);
+}
+.card1 .card-icons{
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.card1 .card-icons i{
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 5px;
+    width: 100%;
+    font-size: 1.1em;
+    transform: scale(0);
+    transition: 0.5s;
+    color: navy;
+   
+}
+
+.card1:hover .card-icons i{
+    transform: scale(1);
+}
+
+
+.card-content .star{
+    position: absolute;
+    font-size: 0.8em;
+    top: 20px;
+    right: 20px;
+    color: gold;
 }
